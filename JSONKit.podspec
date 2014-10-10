@@ -1,4 +1,5 @@
 Pod::Spec.new do |s|
+  s.requires_arc = true
   s.name     = 'JSONKit'
   s.version  = '1.6'
   s.summary  = 'A Very High Performance Objective-C JSON Library.'
